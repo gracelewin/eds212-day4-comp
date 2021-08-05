@@ -1,0 +1,50 @@
+---
+title: "My Fancy Rmd"
+subtitle: "Some changes in YAML"
+author: "Grace Lewin"
+output:
+  html_document:
+    theme: journal
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Getting started
+
+## My first chapter
+
+### Preface
+
+### This is really cool
+something awesome
+
+
+```{r}
+a = 4
+b = 5
+c = 678
+```
+
+# The Part about Bananas
+
+## My second chapter
+
+### best chapter ever
+
+```{r}
+mean(mtcars$mpg)
+
+a + b
+
+c - a
+```
+
+
+
+
